@@ -4,16 +4,14 @@
 print(">>>> Programa conta vogais em uma palavra")
 palavra = input("Informe a palavra: ")
 
-def conta_vogais(string):
+def conta_vogais(palavra):
   vogais = 'aeiouAEIOUâãêéîíôóûú'
   contador = 0
   
-  for caractere in string:
+  for caractere in palavra:
     if caractere in vogais:
       contador += 1
       
   return contador
 
-total_vogais = conta_vogais(palavra)
-
-print(f"Total de vogais na palavra '{palavra}' é: {total_vogais}")
+print(f"{conta_vogais(palavra)} vogais")
