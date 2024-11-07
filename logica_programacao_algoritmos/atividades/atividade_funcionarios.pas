@@ -1,7 +1,7 @@
 Algoritmo "FUNCIONARIOS"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Lógica Programação Algoritmos]
 // Professor   : Marcelo Akira
-// Descrição   : Atividade para entregar
+// Descrição   : Programa para cadastro, consulta, exclusão e edição de funcionários.
 // Autor(a)    : Ana Espejo
 // Data atual  : 17/09/2024
 Tipo
